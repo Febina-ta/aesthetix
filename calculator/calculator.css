@@ -1,0 +1,205 @@
+/* .calc{
+    height: 560px;
+    width: 350px;
+    border: solid 3px rgb(223, 199, 199); */
+    /* margin-left:  550px; */
+    /* margin-top: -10px; */
+    /* margin: auto;
+    justify-content: center;
+    text-align: center; */
+    /* background-color: black; */
+/* } */
+/* button{
+    border: solid 2px  black;
+    font-size: 20px;
+    width:70px;
+    height: 70px;
+    border-radius: 15px;
+}
+button:hover{
+   background-color: rgb(145, 144, 144);
+}
+input{
+    border-radius: 10px;
+    border: none;
+    width:300px;
+    height: 60px;
+    border: solid 2px  black;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+}
+.c{
+    border-radius: 100px;
+}
+.add{
+    border-radius: 100px;
+} 
+.sub{
+    border-radius: 100px;
+}
+.equal{
+    border-radius: 100px;
+}
+.input{
+    border-radius: 100px;
+}
+.mul{
+    border-radius: 100px;
+} */
+
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.calc {
+    width: 360px;
+    height: 650px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+}
+
+button {
+    padding: 20px;
+    font-size: 1.5em;
+    border: 1px solid #ccc;
+    width: 80px;
+    background-color: #f9f9f9;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+button:hover {
+    background-color: #e0e0e0;
+}
+
+button:active {
+    background-color: #d0d0d0;
+}
+
+.equal {
+    /* background-color: #ff9500; */
+    background-color: orangered;
+    color: white;
+    width: 160px;
+    height: 65px;
+    margin-right: 40px;
+    border-radius: 10px;
+    /* grid-column: span 2; */
+}
+
+.equal:hover {
+    background-color: #ff8500;
+}
+
+.equal:active {
+    background-color: #ff7500;
+}
+
+.del{
+    width: 130px;
+    height: 65px;
+    margin-right: 1px;
+    border-radius: 10px;
+}
+
+input{
+    border-radius: 10px;
+    border: none;
+    width:327px;
+    height: 60px;
+    border: solid 1px  black;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    margin-top: 60px;
+}
+
+.c{
+    color: orange;
+}
+.brac{
+    color: orange;
+}
+.per{
+    color: orange;
+}
+.divi{
+    color: orange;
+}
+
+.sev{
+    height: 60px;
+    border-radius: 20px;
+}
+.eig{
+    height: 60px;
+    border-radius: 20px;
+}
+.nine{
+    height: 60px;
+    border-radius: 20px;
+}
+.mul{
+    height: 60px;
+    color: orange;
+}
+.four{
+    height: 60px;
+    border-radius: 20px;
+}
+.five{
+    height: 60px;
+    border-radius: 20px;
+}
+.six{
+    height: 60px;
+    border-radius: 20px;
+}
+.sub{
+    height: 60px;
+    color: orange;
+}
+.one{
+    height: 60px;
+    border-radius: 20px;
+}
+.two{
+    height: 60px;
+    border-radius: 20px;
+}
+.three{
+    height: 60px;
+    border-radius: 20px;
+}
+.add{
+    height: 60px;
+    color: orange;
+}
+.plus{
+    height: 60px;
+}
+.zero{
+    height: 60px;
+    border-radius: 20px;
+}
+.dot{
+    height: 60px;
+}
+.slash{
+    height: 60px;
+    color: orange;
+}
+
